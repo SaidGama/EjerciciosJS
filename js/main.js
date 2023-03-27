@@ -14,6 +14,21 @@ function part1() {
 part1();
 
 function excercise2(n) {
-    for
+    for(let i=0; i<=n; i++){
+        let asteriscos="";
+        for(let j=0; j<i; j++){
+            asteriscos = "*"+asteriscos;
+        }
+        console.log(asteriscos);
+    }
+}
+excercise2(5);
+
+function part3Ejercicio1(n) {
+    let xValue = n;
+    while (xValue >= 0) {
+        console.log(xValue);
+        xValue -= 0.5;
+    }
 }
 
