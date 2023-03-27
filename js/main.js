@@ -32,3 +32,29 @@ function part3Ejercicio1(n) {
     }
 }
 
+function numerosImpares() {
+    for (let i = 1; i <= 100; i++) {
+        if ((i%2) != 0) {
+            console.log(i);
+        }
+    }
+}
+
+function printNumberInSquares(n){
+    let i=1;
+    let numeros ="";
+    while (i<=n) {
+        numeros += "["+i+"] ";
+        i++
+    }
+    console.log(numeros);
+}
+function sumNintegers(n) {
+    let i=1;
+    let sumatoria = 0;
+    while (i<=n) {
+        sumatoria = sumatoria + i;
+        i++;
+    }
+    console.log(sumatoria);
+}
